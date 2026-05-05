@@ -1,0 +1,112 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/vaiwcern/.openclaw/workspace",
+      "model": {
+        "primary": "google/gemini-2.5-flash"
+      },
+      "models": {
+        "google/gemini-3.1-pro-preview": {},
+        "google/gemini-2.5-flash": {}
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "448d4d02e54aa86548080970500b0fe7b5ad6c4aecd22cd8"
+    },
+    "port": 18789,
+    "bind": "loopback",
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send",
+        "sms.search"
+      ]
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "tools": {
+    "profile": "coding",
+    "web": {
+      "search": {
+        "provider": "gemini",
+        "enabled": true
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "channels": {
+    "zalouser": {
+      "enabled": true,
+      "dmPolicy": "pairing"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "zalouser": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": ""
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.4.11",
+    "lastTouchedAt": "2026-04-13T02:32:55.446Z"
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "boot-md": {
+          "enabled": true
+        },
+        "bootstrap-extra-files": {
+          "enabled": true
+        },
+        "command-logger": {
+          "enabled": true
+        },
+        "session-memory": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-04-13T02:32:55.208Z",
+    "lastRunVersion": "2026.4.11",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  }
+}

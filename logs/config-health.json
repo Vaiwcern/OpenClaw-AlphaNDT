@@ -1,0 +1,22 @@
+{
+  "entries": {
+    "/home/vaiwcern/.openclaw/openclaw.json": {
+      "lastKnownGood": {
+        "hash": "a1d25512c61de47d5f01f83c6cb694192f32b8fa99b918c1a4f49aa2b5425fe1",
+        "bytes": 2123,
+        "mtimeMs": 1777966367570.347,
+        "ctimeMs": 1777966367575.6172,
+        "dev": "66310",
+        "ino": "8393166",
+        "mode": 384,
+        "nlink": 1,
+        "uid": 1000,
+        "gid": 1000,
+        "hasMeta": true,
+        "gatewayMode": "local",
+        "observedAt": "2026-05-05T07:32:48.316Z"
+      },
+      "lastObservedSuspiciousSignature": null
+    }
+  }
+}

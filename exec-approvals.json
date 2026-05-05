@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/home/vaiwcern/.openclaw/exec-approvals.sock",
+    "token": "v2RGfcjpp7b4N96oTxwYC5J4m0rE1DWu"
+  },
+  "defaults": {},
+  "agents": {}
+}

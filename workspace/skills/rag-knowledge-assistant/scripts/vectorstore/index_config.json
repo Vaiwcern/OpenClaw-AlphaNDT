@@ -1,0 +1,9 @@
+{
+  "knowledge_dir": "/home/vaiwcern/.openclaw/workspace/skills/rag-knowledge-assistant/scripts/knowledge",
+  "vectorstore_dir": "/home/vaiwcern/.openclaw/workspace/skills/rag-knowledge-assistant/scripts/vectorstore",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "embedding_model": "ollama/nomic-embed-text-v2-moe",
+  "document_count": 29,
+  "chunk_count": 261
+}
